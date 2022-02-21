@@ -1,5 +1,5 @@
 k = 4
-message = input("Please Enter your Message...")
+message = input("Please Enter your Message...").lower()
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 mod = len(alphabet)
 encrypt_message = ''
